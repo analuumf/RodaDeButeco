@@ -22,6 +22,12 @@ margin-bottom: 20px;
 display: inline-block;
 }
 
+.CoisinhasNoMeio {
+display: flex;
+justify-content: center; 
+align-items: center; 
+}
+
 h1 {
 color: #ffe8e8;
 font-family: Helvetica;
