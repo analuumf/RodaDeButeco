@@ -1,20 +1,57 @@
-<!DOCTYPE html>
-<html lang="Pt-Br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-<body>
-    <img src="icones/icon.png" id="logo" alt="Logo do Roda de Buteco">
-    <h1>Clique para sortear</h1>
-	<div id="CartasParaSortear">
-	</div>
-	
-	<button onclick="NovaCarta()">Nova Carta</button>
-	<p id="Paragrafo">Jogue com responsabilidade</p>
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
 
-    <script src="script.js"></script>
-</body>
-</html>
+body {
+background-color: #1F2328;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif, Verdana;
+justify-content: flex-start; /* Força o conteúdo a começar do topo, não do centro */
+display: block;
+height: auto;
+min-height: 0;
+padding-top: 25px;       /* Centraliza horizontalmente (esquerda/direita) */
+}
+
+#logo {
+width: 160px;
+height: auto;
+margin-bottom: 20px;
+display: inline-block;
+}
+
+h1 {
+color: #ffe8e8;
+font-family: Helvetica;
+margin-top: 0;             /* Zera qualquer margem superior espessa */
+margin-bottom: 25px;
+}
+
+#Paragrafo {
+color: #ffe8e8;
+font-family: Helvetica;
+font-size: 10px;
+}
+
+button {
+background: #890101;
+color: #ffe8e8;
+border: none;
+padding: 14px 24px;
+border-radius: 10px;
+font-size: 16px;
+cursor: pointer;
+}
+
+button:hover {
+background: #660000;
+}
+
+#CartasParaSortear {
+color: #ffe8e8;
+font-size: 15px;
+text-align: center;
+margin-bottom: 20px; 
+}
